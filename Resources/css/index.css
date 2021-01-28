@@ -1,7 +1,8 @@
 /*      BODY      */
-* {
+/** {
     box-sizing:border-box;
-}
+    border: 1px solid red;
+} */
 html, body {
     margin: 0;
     padding: 0;
@@ -29,6 +30,8 @@ html, body {
     text-decoration: none;
     padding-right: 20px;
     line-height: 10%;
+    margin: 1px;
+    font-size: 1.2em;
 }
 .navbar a {
     text-decoration: none;
@@ -61,7 +64,7 @@ header {
    width: 100%;
    display:inline-flex;
    position: relative;
-   vertical-align: center;
+   vertical-align: bottom;
    box-shadow: 2px 2px 2px black;
    
 }
@@ -93,16 +96,19 @@ h1 {
     margin-left: 30px;
     margin-top: 10px;
     margin-bottom: 10px;
+    border: 2px solid white;
 
 }
 
 #bike-pic {
     filter: drop-shadow(1px 1px 1px black);
-    float:right;
-    height: 200px;
+    width: 30%;
+    margin-left: 5%
+}
+
 
 }
-/* ----ABOUT CONTENT---- */
+/* ----MAIN CONTENT---- */
 h2, p {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -117,7 +123,7 @@ h2, p {
     
 }
 main {
-    width: 60%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -125,16 +131,65 @@ main {
 h2 {
     text-transform: uppercase;
     font-size: 2em;
-    margin-bottom: -6px;
+    margin-bottom: 2%;
     margin-top: auto;
-    padding-top: 6px;
+    padding-top: 15px;
+    
 
 }
+
 .about p{
     display:inline-block;
-    width: 50%;
-    height: 200px;
+    width: 60%;
+    margin-top:0px;
+    vertical-align: top;
+    line-height: 1.5em;
+    font-size: 1.1em;
 }
+/* ------PROJECTS-----   */
+figure {
+    filter: drop-shadow(1px 1px 1px black);
+}
+ .project-images figure  {
+   display:inline-block;
+    margin: 0;
+    /*border: 2px solid yellow;*/
+}
+#excursion {
+    
+    height: 250px;
+}
+
+#credit {
+    
+    margin-left: 140px;
+    height: 250px;
+    width: 400px;    
+}
+#excusrion-caption {
+    
+}
+#credit-caption {
+    margin-left: 140px;
+}
+
+figcaption {
+ background-color: black;
+ color: white;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ text-align: center;  
+ position: relative;
+ bottom: 7px;
+ font-weight: bold;
+ 
+}
+figure:hover {
+    filter: drop-shadow(1px 1px 1px red);
+}
+
+
+
+
 
 /* -----FOOTER----- */
 footer {
