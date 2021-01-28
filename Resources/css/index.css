@@ -107,7 +107,7 @@ h1 {
 }
 
 
-}
+
 /* ----MAIN CONTENT---- */
 h2, p {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -118,10 +118,9 @@ h2, p {
     background-color: white;
     margin: 0 auto;
     height: 70%;
-    box-shadow:  0px 0px 2px 2px #777777;;
-    
-    
+    box-shadow:  0px 0px 2px 2px #777777;;   
 }
+
 main {
     width: 80%;
     margin-left: auto;
@@ -146,15 +145,18 @@ h2 {
     line-height: 1.5em;
     font-size: 1.1em;
 }
+
 /* ------PROJECTS-----   */
 figure {
     filter: drop-shadow(1px 1px 1px black);
 }
+
  .project-images figure  {
    display:inline-block;
     margin: 0;
     /*border: 2px solid yellow;*/
 }
+
 #excursion {
     
     height: 250px;
@@ -166,6 +168,7 @@ figure {
     height: 250px;
     width: 400px;    
 }
+
 #excusrion-caption {
     
 }
@@ -181,8 +184,8 @@ figcaption {
  position: relative;
  bottom: 7px;
  font-weight: bold;
- 
 }
+
 figure:hover {
     filter: drop-shadow(1px 1px 1px red);
 }
