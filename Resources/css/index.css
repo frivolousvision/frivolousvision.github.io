@@ -7,6 +7,7 @@ html, body {
     margin: 0;
     padding: 0;
     background-color: rgb(194, 194, 194);
+    font-family: 'Space Grotesk';
 }
 
 
@@ -17,7 +18,7 @@ html, body {
     z-index:1;
     top: 0;
     color: black;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Space Grotesk';
     background-color: black;
     filter: drop-shadow(1px 1px 1px black);
     text-align: right;
@@ -101,89 +102,114 @@ h1 {
 }
 
 #bike-pic {
-    filter: drop-shadow(1px 1px 1px black);
-    width: 30%;
-    margin-left: 5%
+    filter:grayscale(100%);
+    box-shadow: 1px 1px 1px rgb(104, 104, 104);
+    width: 100%;
+    /*margin-left: 5%;*/
+    
 }
 
 
 
 /* ----MAIN CONTENT---- */
-h2, p {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
 
+p {
+    font-family: Montserrat;
+}
 .body-margin {
     width: 85%;
     background-color: white;
     margin: 0 auto;
     height: 70%;
-    box-shadow:  0px 0px 2px 2px #777777;;   
+    box-shadow:  0px 0px 2px 2px rgb(95, 95, 95);;   
 }
 
 main {
-    width: 80%;
+    width: 83%;
     margin-left: auto;
     margin-right: auto;
 }
 
 h2 {
-    text-transform: uppercase;
-    font-size: 2em;
+    font-family: 'Space Grotesk';
+    /*text-transform: uppercase;*/
+    font-size: 3em;
     margin-bottom: 2%;
     margin-top: auto;
-    padding-top: 15px;
+    padding-top: 15px;  
     
 
 }
-
+.about-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
 .about p{
-    display:inline-block;
+    /*display:inline-block;
     width: 60%;
     margin-top:0px;
-    vertical-align: top;
+    vertical-align: top; */
     line-height: 1.5em;
     font-size: 1.1em;
+    margin-top:0px;
+    margin-right: 5%;
+
+
 }
 
 /* ------PROJECTS-----   */
+
 figure {
     filter: drop-shadow(1px 1px 1px black);
 }
 
  .project-images figure  {
-   display:inline-block;
-    margin: 0;
+   
+    
+}
+.project-box {
+    display: flex;
+    /*flex-flow: row nowrap;*/
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    /*justify-items: center;*/
     /*border: 2px solid yellow;*/
-}
-
-#excursion {
-    
-    height: 250px;
-}
-
-#credit {
-    
-    margin-left: 140px;
-    height: 250px;
-    width: 400px;    
-}
-
-#excusrion-caption {
     
 }
-#credit-caption {
-    margin-left: 140px;
+/*
+.project-image {
+    margin: 0 1vh;
+}*/
+
+#excursion {    
+    height: 20vh;
+    margin:0;
+    padding:0;
+    
 }
+
+#credit {      
+    height: 20vh;
+    margin:0; 
+    padding:0;
+}
+#design-sheet {    
+    height: 20vh;
+    margin:0;
+    padding:0;
+}
+
 
 figcaption {
  background-color: black;
  color: white;
- font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ font-family: 'Space Grotesk';
  text-align: center;  
  position: relative;
  bottom: 7px;
- font-weight: bold;
+ font-weight: 400;
 }
 
 figure:hover {
