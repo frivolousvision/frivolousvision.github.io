@@ -3,84 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dan Durnell Resume</title>
-    <link type="text/css" rel="stylesheet" href="Resources/css/index.css">
-    <!--<link rel="preconnect" href="https://fonts.gstatic.com">-->
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="resources/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
+    <title>Daniel Durnell's Portfolio</title>
 </head>
-
 <body>
-    <header class="header">
-        <img id="dan-pic" src="Resources/images/IMG_2686.JPG" alt="Picture of Dan">
-        <h1><a href="https://github.com/frivolousvision/frivolousvision.github.io" target="_blank"> Daniel Durnell</a></h1>
+    <header>
+        <ul class="nav">
+            <li><a>About</a></li>
+            <li><a>Projects</a></li>
+            <li><a>Contact</a></li>
+        </ul>
     </header>
-    
-    <nav class="navbar">
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-            </ul>
-    </nav>
-    <div class="body-margin">
-  
-    <main>
-    
-        <section class="about">
-            <h2>About</h2> 
-            <div class="about-box">
-            <p class="about-para">My name is Dan and I am currently in the process of learning how to become a full-stack developer! 
-             My interest in web developement was first tickled while building a website via SquareSpace for a business I was working for. 
-             I loved how user-friendly the platform was, but grew frustrated with how restrictive it could be at times and longed for the ability 
-             of having full control over the design. So I dove in! With the guidance of Codecademy, I'm trying to learn and take my knowledge to the next level. 
-             In my free time, I enjoy riding my bike in places in where bicycles rarely go, 
-            drinking great coffee, discussing movies with firends and occasionally painting on wood panels.</p>
-            <div>
-            <img id="bike-pic" src="Resources/images/IMG_0546.JPG" alt="A beautiful Surly">
+    <div class="grid">
+        <aside class="photo-and-name">
+            <img src="resources/images/dan.JPG" alt="Photo of Daniel Dunrell">
+            <h1>Daniel Durnell</h1>
+            <h2>Junior Web Developer</h2>
+        </aside>
+        <main class="main-content">
+            <div class="about" id ="about">
+                <h2>About</h2>
+                <p>My name is Dan and I am currently in the process of learning how to become a full-stack developer! My interest in 
+                web developement was first tickled while building a website via SquareSpace for a business I was working for. I 
+                loved how user-friendly the platform was, but grew frustrated with how restrictive it could be at times and longed 
+                for the ability of having full control over the design. So I dove in! With the guidance of Codecademy, I'm trying 
+                to learn and take my knowledge to the next level. In my free time, I enjoy riding my bike in places in where bicycles 
+                rarely go, drinking great coffee, discussing movies with firends and occasionally painting on wood panels.</p>
             </div>
-            </div>
-        </section>
-        <br>
-        <h2 id="projects">Projects</h2>
-        <section class="project-images">
-            
-            <div class="project-box">
-                <figure>
-                     <a href="https://frivolousvision.github.io/excursion/" target="_blank"><img id="excursion" class='project-image' src="Resources/images/excursion-screenshot.png" alt=""></a>
-                        <figcaption id="excusrion-caption">A HTML & CSS project I did with Codecademy</figcaption> 
+            <h2 class="projects-header">Projects</h2>
+            <div class="projects" id="projects">
+                
+                <div class="gallery-box">
+                    <figure>
+                        <figcaption>A website I made for a ficticious company</figcaption>
+                        <img src="resources/images/company-screenshot.png" alt="">
                     </figure>
-                <figure>
-                    <a href="https://github.com/frivolousvision/master-beginner" target="_blank"><img id="credit" class='project-image' src="Resources/images/credit-card-checker-screenshot.png" alt=""></a>
-                        <figcaption id="credit-caption">A Javascript project I did with Codecademy</figcaption>
-                     </figure>
-                <figure>
-                    <a href="https://frivolousvision.github.io/web-design-sheet/" target="_blank"><img id="design-sheet" class='project-image' src="Resources/images/web-design-sheet.png" alt=""></a>
-                        <figcaption id="credit-caption">A HTML/CSS project I did with Codecademy</figcaption>
-                     </figure>
-                
-                
-                    </div>
+                </div>
+
+                <div class="gallery-box">
+                    <figure>
+                        <figcaption>A website I made for my friends'bike group</figcaption>
+                        <img src="resources/images/velo-screenshot.png" alt="">
+                    </figure>
+                </div>
+
+                <div class="gallery-box">
+                    <figure>
+                        <figcaption>A website I made from a codecademy spec sheet</figcaption>
+                        <img src="resources/images/tea-screenshot.png" alt="">
+                    </figure>
+                </div>
+
+                <div class="gallery-box">
+                    <figure>
+                        <figcaption>A website I made to store colors and fonts for design</figcaption>
+                        <img src="resources/images/design-screenshot.png">
+                    </figure>
+                </div>
+            </div>
+            
+            </main>
+            <section class="side-bar">
+                <h3>Skills</h3>
+                <div class="skills-box">
+                <img src="resources/images/html5.png" alt="">
+                </div>
+                <div class="skills-box">
+                <img src="resources/images/css3.png" alt="">
+                </div>
+                <div class="skills-box">
+                <img src="resources/images/javascript.png" alt="">
+                </div>
+
             </section>
+    </div>
 
-        <p>Check out my <a href="https://github.com/frivolousvision/" target="_blank">GitHub</a></p>
-        <h2 id="contact">Contact</h2>
-        <p><strong>Email:</strong> ddurnell1@gmail.com</p>
-        <p><strong>Phone:</strong> 470-925-9443</p>
-    </main>
-    <br>
-</div>
-    <footer>
-        <p><strong>CONTACT INFO</strong></p>
-            <p><strong>Email:</strong> <a id="footer-link" href="mailto:ddurnell1@gmail.com" target="_blank">ddurnell1@gmail.com</a></p>
-            <p><strong>Phone:</strong> 470-925-9443</p>
-            <p><strong>GitHub:</strong> <a id="footer-link" href="https://github.com/frivolousvision/" target="_blank">frivolousVision</a></p>
-        </footer>
 
-  
+
+
 </body>
 </html>
-
