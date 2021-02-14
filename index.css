@@ -40,26 +40,22 @@ h1, h2, h3 {
     margin-right: 1rem;
     margin-left: .5rem;
 }
-.grid {
-    display: grid;
-    grid-template-rows: auto;
-    grid-template-columns: repeat(16, 1fr);
-    position: absolute;
-    top: 3rem;  
+
+a {
+    text-decoration: none;
 }
+a:visited {
+    color: seashell;
+}
+a:hover {
+    color: red;
+}
+
 h1 {
     font-size: 2.5rem;
     line-height: 2rem;
 }
-.photo-and-name {
-    grid-column: 1  / 4;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin-top: 2rem;
-    margin-left: 2rem;;    
-}
+
 
 .photo-and-name img {
     max-width: 100%;
@@ -70,11 +66,7 @@ h1 {
     margin-top: 1rem;
     line-height: 1.5rem;
 }
-.main-content {
-    grid-column: 5 / 14;
-    margin-top: 2rem;
-    
-}
+
 .about {
     margin-top: 2rem;
 }
@@ -109,16 +101,7 @@ h1 {
 .gallery-box figcaption {
     margin-top: 2rem;
 }
-.side-bar {
-    grid-column: 15 / 16;
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    margin: 1rem; 
-    top: 3.6rem;
-    align-items: center;
-    
-}
+
 .skills-box {
     width: 100%;
     margin: 1rem; 
@@ -126,3 +109,110 @@ h1 {
 .skills-box img {
     max-width: 100%;
 }
+@media only screen and (min-width: 900px) {
+    .grid {
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: repeat(16, 1fr);
+        position: absolute;
+        top: 3rem;  
+    }
+    .photo-and-name {
+        grid-column: 1  / 4;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 2rem;
+        margin-left: 2rem;;    
+    }
+    .main-content {
+        grid-column: 5 / 14;
+        margin-top: 2rem;
+        
+    }
+    .side-bar {
+        grid-column: 15 / 16;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        margin: 1rem; 
+        top: 3.6rem;
+        align-items: center;
+        float: right;
+    }
+    .mobile-skills {
+        display: none;
+    }
+    }
+    @media only screen and (min-width:1000) and (max-width: 600px) {
+        
+            
+        }
+    }
+    @media only screen and (max-width: 800px) {
+        .grid {
+            display: flex;
+            flex-direction: column;
+            
+        }
+        .photo-and-name  {
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            width: 80%;
+            margin: 2rem auto;
+            text-align: center;
+            margin-top: 4rem;
+        }
+        .side-bar {
+            display: none;
+        }
+        .mobile-skills {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            margin-top: 2rem;
+            align-items: center;
+            
+        }
+        .mobile-skills-box {
+            width: 100%;    
+        }
+        .mobile-skills-box img {
+            width: 100%;    
+        }
+        .mobile-skills-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 80%;
+            margin: 1rem auto;
+            
+        }
+        .projects {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            align-items: center;
+
+        }
+        .gallery-box {
+            width: 80%;
+            margin: .5rem;
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            text-align: center;
+            
+        
+        }
+        .gallery-box img {
+            max-width: 100%;
+            
+        }
+        .gallery-box figcaption {
+            margin-top: 2rem;
+        }
+        
+    }
