@@ -53,6 +53,9 @@ a:hover {
 a:visited {
     color: seashell;
 }
+a:hover {
+    color: red;
+}
 h1 {
     font-size: 2.5rem;
     line-height: 2rem;
