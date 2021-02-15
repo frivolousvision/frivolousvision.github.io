@@ -174,7 +174,7 @@ h1 {
             text-align: center;
             margin-top: 4rem;
         }
-        .about p {
+        .about {
             width: 90%;
             margin: .2rem auto;
         }
