@@ -179,6 +179,7 @@ h1 {
         .about {
             width: 90%;
             margin: .2rem auto;
+            scroll-margin-top: 3.5rem;
         }
         .side-bar {
             display: none;
@@ -205,17 +206,25 @@ h1 {
             margin: 1rem auto;
             
         }
+        .projects-header {
+            width: 90%;
+            margin: 0 auto;
+        }
+        
         .projects {
             display: flex;
             flex-direction: column;
             width: 90%;
             align-items: center;
             margin: 0 auto;
+            scroll-margin-top: 6rem;
+            
+
 
         }
         .gallery-box {
             width: 100%;
-            margin: .5rem;
+            margin: .5rem auto;
             display: flex;
             flex-direction: column;
             align-content: center;
