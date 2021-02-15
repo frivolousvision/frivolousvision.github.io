@@ -14,6 +14,15 @@
     font-family: "Lexend Mega";
     margin-top: 2rem;
 }
+a {
+    text-decoration: none;
+}
+a:visited {
+    color: seashell;
+}
+a:hover {
+    color: red;
+}
 
 #dont-connect-with-dan {
     width: 30rem;
@@ -27,5 +36,8 @@
     .contact p {
         min-width: 500px;
     }
-
+    .contact button {
+        width: 50%;
+        margin: .2rem auto;
+    }
 }
