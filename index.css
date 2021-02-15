@@ -69,6 +69,7 @@ h1 {
 
 .about {
     margin-top: 2rem;
+    scroll-margin-top: 3rem;
 }
 .about p {
     margin-top: .2rem;
@@ -83,6 +84,7 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    scroll-margin-top: 3rem;
 }
 .gallery-box {
     width: 40%;
