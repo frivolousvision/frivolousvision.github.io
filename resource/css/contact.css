@@ -1,0 +1,31 @@
+.contact p {
+    margin-top: .2rem;
+    margin-left: .2rem;
+    line-height: 2rem;
+    
+}
+#connect-content {
+    display:none;
+}
+#connect-with-dan {
+    width: 20rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    font-family: "Lexend Mega";
+    margin-top: 2rem;
+}
+
+#dont-connect-with-dan {
+    width: 30rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    font-family: "Lexend Mega";
+    margin-top: 2rem;
+}
+
+@media only screen and (min-width: 1000px) {
+    .contact p {
+        min-width: 500px;
+    }
+
+}

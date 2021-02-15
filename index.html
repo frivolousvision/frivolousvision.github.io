@@ -13,24 +13,29 @@
         <ul class="nav">
             <li><a href="#about">About</a></li>
             <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="resource/html/contact.html">Contact</a></li>
         </ul>
     </header>
     <div class="grid">
         <aside class="photo-and-name">
-            <img src="resource/images/dan.JPG" alt="Photo of Daniel Dunrell">
+            <img src="resource/images/dan.JPG" alt="Photo of Daniel Dunrell" id="dan-pic-home">
             <h1>Daniel Durnell</h1>
             <h2>Junior Web Developer</h2>
         </aside>
+
         <main class="main-content">
             <div class="about" id ="about">
                 <h2>About</h2>
-                <p>My name is Dan and I am currently in the process of learning how to become a full-stack developer! My interest in 
-                web developement was first tickled while building a website via SquareSpace for a business I was working for. I 
-                loved how user-friendly the platform was, but grew frustrated with how restrictive it could be at times and longed 
-                for the ability of having full control over the design. So I dove in! With the guidance of Codecademy, I'm trying 
-                to learn and take my knowledge to the next level. In my free time, I enjoy riding my bike in places in where bicycles 
-                rarely go, drinking great coffee, discussing movies with firends and occasionally painting on wood panels.</p>
+                <p>Hey there! My name is Dan and I am an aspiring web developer located in Atlanta, GA. I am currently enrolled in a 
+                    Full-Stack Engineering course at Codecademy. I have two degrees in Marketing and Finance from Georgia State Univserity
+                    and half a decade of experience in management in the food and bev industry.</p>
+                    <br>
+                    <p>My interest in web developement was first peaked while building websites via SquareSpace for the companies I was working for. I 
+                    loved how user-friendly the platform was, but wanted more control over the design. So I dove in! With the guidance of Codecademy, I'm trying 
+                    to learn and take my knowledge to the next level.</p> 
+                    <br>
+                    <p>In my free time, I enjoy riding bikes to distant places, 
+                    drinking great coffee, discussing movies with firends and occasionally painting and drawing creepy creatures.</p>
             </div>
 
             <section class="mobile-skills">
@@ -54,28 +59,28 @@
                 <div class="gallery-box">
                     <figure>
                         <figcaption>A website I made for a ficticious company</figcaption>
-                        <img src="resource/images/company-screenshot.png" alt="">
+                        <a href="https://frivolousvision.github.io/companyproject" target="_blank"><img src="resource/images/company-screenshot.png" alt="" id="gallery-box-one"></a>
                     </figure>
                 </div>
 
                 <div class="gallery-box">
                     <figure>
                         <figcaption>A website I made for my friends'bike group</figcaption>
-                        <img src="resource/images/velo-screenshot.png" alt="">
+                        <a href="https://frivolousvision.github.io/velosantana/"><img src="resource/images/velo-screenshot.png" alt="" id="gallery-box-two"></a>
                     </figure>
                 </div>
 
                 <div class="gallery-box">
                     <figure>
                         <figcaption>A website I made from a codecademy spec sheet</figcaption>
-                        <img src="resource/images/tea-screenshot.png" alt="">
+                        <a href="https://frivolousvision.github.io/theteacozy/" target="_blank"><img src="resource/images/tea-screenshot.png" alt="" id="gallery-box-three"></a>
                     </figure>
                 </div>
 
                 <div class="gallery-box">
                     <figure>
                         <figcaption>A website I made to store colors and fonts for design</figcaption>
-                        <img src="resource/images/design-screenshot.png">
+                        <a href="https://frivolousvision.github.io/web-design-sheet/"><img src="resource/images/design-screenshot.png" id="gallery-box-four"></a>
                     </figure>
                 </div>
             </div>
@@ -93,10 +98,13 @@
                 <img src="resource/images/javascript.png" alt="">
                 </div>
             </section>
+            <footer class="footer">
+                <h4>Want to see more of my work? Check out my GitHub <a href="https://github.com/frivolousvision/" target="_blank">here</a></h4>
+            </footer>
     </div>
 
 
-
-
+<script src="resource/javascript/dan-hover.js"></script>
+<script src="resource/javascript/image-hover.js"></script>
 </body>
 </html>
