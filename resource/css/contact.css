@@ -64,6 +64,7 @@ a:hover {
     .contact button {
         width: 50%;
         margin: .2rem auto;
+        font-size: 1rem;
     }
     .logo-box {
         width: 40%;
