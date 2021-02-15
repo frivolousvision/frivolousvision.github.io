@@ -179,8 +179,8 @@ h1 {
         .about {
             width: 90%;
             margin: .2rem auto;
-            padding-top: 2rem;
-            margin-top: -2rem;
+            padding-top: 1rem;
+            margin-top: -1rem;
         }
         .side-bar {
             display: none;
@@ -218,8 +218,8 @@ h1 {
             width: 90%;
             align-items: center;
             margin: 0 auto;
-            padding-top: 4rem;
-            margin-top: -4rem;
+            padding-top: 1rem;
+            margin-top: -1rem;
             
 
 
