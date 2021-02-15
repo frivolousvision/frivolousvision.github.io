@@ -58,6 +58,9 @@ a:hover {
 }
 
 @media only screen and (min-width: 1000px) {
+    #connect-content {
+        display:flex;
+    }
     .contact p {
         min-width: 500px;
     }
@@ -82,6 +85,8 @@ a:hover {
         font-size: 1rem;
     }
     .contact {
+        display: flex;
+        justify-content: center;
         width: 90%;
         margin: .2rem auto;
         padding-top: 1rem;
