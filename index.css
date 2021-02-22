@@ -186,16 +186,11 @@ h1 {
         #nav {
             display: flex;
             justify-items: center;
-            align-items: center;
-            
-        }
-        .help {
-            display: flex;
-            justify-content: center;
-            
-            width: 100%;
+            align-items: center;   
         }
 
+    
+        
         #nav-links {
             display: none;
         }
@@ -204,11 +199,13 @@ h1 {
             color: seashell;
             z-index: 10;
             font-size: 2rem;
+            margin-right: 1rem;
         }
         .fa-angle-up {
             color: seashell;
             z-index: 10;
             font-size: 2rem;
+            
         }
        
         .nav li {
