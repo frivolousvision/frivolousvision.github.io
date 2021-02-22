@@ -13,6 +13,8 @@ const open = function() {
     dropNav.style.zIndex = "10";
     dropNav.style.backgroundColor = "black";
     dropNav.style.height = "10rem";
+    dropNav.style.position = "fixed";
+    dropNav.style.width = "100%";
     
     
     navLinks.style.display = "flex";
@@ -34,12 +36,3 @@ const close = function() {
 
 hamburger.addEventListener('click', open);
 angleUP.addEventListener('click', close);
-
-/*
-flex-direction: column;
-            justify-content: space-around;
-            align-items: center;
-            background-color: black;
-            z-index: 10;
-            font-size: 2rem;
-            */
