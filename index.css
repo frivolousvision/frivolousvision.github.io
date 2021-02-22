@@ -119,6 +119,12 @@ h1 {
     max-width: 100%;
 }
 @media only screen and (min-width: 1000px) {
+    .drop-nav {
+        display: none;
+    }
+    
+   
+
     .grid {
         display: grid;
         grid-template-rows: auto;
@@ -169,12 +175,42 @@ h1 {
     }
    
     @media only screen and (max-width: 1000px) {
-        .nav {
-            display: flex;
-            justify-content: space-evenly;
-            align-items: center;
-            width: 100%; 
+        .nav li a{
+            display: none;  
         }
+
+        .drop-nav {
+            display: none;
+        }
+
+        #nav {
+            display: flex;
+            justify-items: center;
+            align-items: center;
+            
+        }
+        .help {
+            display: flex;
+            justify-content: center;
+            
+            width: 100%;
+        }
+
+        #nav-links {
+            display: none;
+        }
+
+        .fa-bars {
+            color: seashell;
+            z-index: 10;
+            font-size: 2rem;
+        }
+        .fa-angle-up {
+            color: seashell;
+            z-index: 10;
+            font-size: 2rem;
+        }
+       
         .nav li {
             display: inline-block;
             color:seashell;
