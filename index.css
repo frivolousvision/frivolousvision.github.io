@@ -230,6 +230,9 @@ h1 {
             max-height: auto;
             max-width: 400px;
         }
+        .photo-and-name h1 {
+            margin-top: 1.2rem;
+        }
         h2 {
             letter-spacing: -.1rem;
             text-align: center;
@@ -237,8 +240,7 @@ h1 {
         .about {
             width: 90%;
             margin: .2rem auto;
-            padding-top: 1rem;
-            margin-top: -1rem;
+            margin-top: 1rem;
         }
         .side-bar {
             display: none;
