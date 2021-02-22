@@ -247,7 +247,8 @@ h1 {
             display: flex;
             flex-direction: column;
             width: 100%;
-            margin-top: 2rem;
+            margin-top: 3rem;
+            margin-bottom: 3rem;
             align-items: center;
             
         }
@@ -264,6 +265,9 @@ h1 {
             width: 80%;
             margin: 1rem auto;
             
+        }
+        .mobile-skills h3 {
+            font-size: 2.5rem;
         }
         .projects-header {
             width: 90%;
@@ -289,6 +293,7 @@ h1 {
             flex-direction: column;
             align-content: center;
             text-align: center;
+            margin-top: 1rem;
             
         
         }
