@@ -8,11 +8,8 @@ const angleUP = document.getElementById('angle-up');
 const open = function() {
     dropNav.style.display = "flex";
     dropNav.style.flexDirection = "column";
-    dropNav.style.justifyItems = "space-between"
-    dropNav.style.alignContent = "center";
     dropNav.style.zIndex = "10";
     dropNav.style.backgroundColor = "black";
-    dropNav.style.height = "10rem";
     dropNav.style.position = "fixed";
     dropNav.style.width = "100%";
     
@@ -21,7 +18,7 @@ const open = function() {
     navLinks.style.flexDirection = "column";
     navLinks.style.justifyContent = "space-around"
     navLinks.style.alignItems = "center"
-    navLinks.style.height = "10rem";
+    navLinks.style.height = "40vh";
     
 
     nav.style.display = "none";
