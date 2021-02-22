@@ -231,7 +231,10 @@ h1 {
             max-height: auto;
             max-width: 400px;
         }
-      
+        h2 {
+            letter-spacing: -.1rem;
+            text-align: center;
+        }
         .about {
             width: 90%;
             margin: .2rem auto;
