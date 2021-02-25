@@ -3,6 +3,9 @@ const dropNav = document.getElementById('drop-nav');
 const navLinks = document.getElementById('nav-links')
 const nav = document.getElementById('nav');
 const angleUP = document.getElementById('angle-up');
+const navBtn1 = document.getElementById('nav-btn-1');
+const navBtn2 = document.getElementById('nav-btn-2');
+const navBtn3 = document.getElementById('nav-btn-3');
 
 
 const open = function() {
@@ -13,12 +16,13 @@ const open = function() {
     dropNav.style.position = "fixed";
     dropNav.style.width = "100%";
     
-    
+
     navLinks.style.display = "flex";
     navLinks.style.flexDirection = "column";
     navLinks.style.justifyContent = "space-around"
     navLinks.style.alignItems = "center"
     navLinks.style.height = "40vh";
+    
     
 
     nav.style.display = "none";
@@ -33,3 +37,6 @@ const close = function() {
 
 hamburger.addEventListener('click', open);
 angleUP.addEventListener('click', close);
+navBtn1.addEventListener('click', close);
+navBtn2.addEventListener('click', close);
+navBtn3.addEventListener('click', close);
